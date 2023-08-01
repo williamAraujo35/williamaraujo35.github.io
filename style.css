@@ -1,0 +1,240 @@
+body{
+    margin: 0px;
+}
+
+.container {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    background-color: #095169;
+}
+
+.head {
+    background-color: #9fd86b;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+
+
+.cabecalho_superior, .show {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: hidden;
+}
+
+.title {
+    font-size: clamp(1em, 1.5em + 1vw, 3em);
+    color: white;
+    font-weight:bolder;
+}
+
+.links, .show_left {
+    font-size: clamp(0.3em, 0.8em + 1vw, 1em);
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.link_externo {
+    margin-top: 2%;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.show {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.show_right {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 10%; 
+}
+
+#img1 {
+    width: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+#img2, #img3, #img4, #img5 {
+    border: 3px solid #095169;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.show_left {
+    margin-left: 100px;
+}
+
+#botao {
+    width: 25%;
+    height: 15%;
+    border: 1px solid #095169;
+    border-radius: 8px;
+    background-color: #095169;
+    color: #F9FAF8;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.title2 {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: clamp(1em, 1em + 1vw, 2.3em);
+    font-weight: bold;
+    color: #1F2937;
+
+}
+
+.card {
+
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 7%;
+    
+}
+
+.informations, .legends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+
+
+
+.sesDois {
+    width: 80%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.legend {
+    color: #1F2937;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.sessao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation {
+    background-color: #53ba83;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.citationText {
+    font-size: clamp(0.7em, 0.7em + 0.7vw, 2.0em);
+    font-style: italic;
+    justify-content: center;
+    color: #1F2937;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.autor {
+    font-size: clamp(0.5em, 0.5em + 0.5vw, 1.5em);
+    text-align: right;
+    color: #1F2937;
+    margin-right: 15%;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    background-color: #095169 ;
+    border-radius: 5px;
+    color: #F9FAF8;
+    margin: 70px;  
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2%;
+    margin-left: 10%;
+}
+
+
+#textoDois {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+#textoTres {
+    font-size: 12px;
+    color:#E5E7EB;
+}
+
+#botaoDois {
+    
+    background-color: #095169;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8 ;
+    border-radius: 5px;
+    width: 150%;
+    height: 100% ;
+}
+
+.btnDois {
+    padding-top: 20px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #9fd86b;
+    width: 80%;
+    text-align: center;
+    color: #1F2937;
+    height: 80px;
+    font-size: 14px;
+}
+
+.whatsapp {
+    text-decoration: none;
+    font-size: 16px;
+    color: #9fd86b;
+}
